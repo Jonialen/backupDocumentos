@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "06782af4c867bb7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3005cd5a2ce20a6c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60c4d3d15f2a89bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AUXILIATURA/PROGRA BASICA (AUX)/Ejercicio 3 - Estructuras cíclicas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ejercicio 3 - Estructuras cíclicas"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ffe5dcd65cea4711",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6f6303ad688d50e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8247da96eaebd20e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "55094921c2717b6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "228ec5d10551d40f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a2112f3d30948042",
+    "type": "split",
+    "children": [
+      {
+        "id": "b694a9f9f5d9d1d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "626c0fef7535a729",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AUXILIATURA/PROGRA BASICA (AUX)/MEA 1 - Análisis, Diseño y Propuesta de Solución.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de MEA 1 - Análisis, Diseño y Propuesta de Solución"
+            }
+          },
+          {
+            "id": "97cbd4734d02ffa2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ae36c1aee037d69f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bc23968b57999996",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DB1/Clase 5.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Clase 5"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "60c4d3d15f2a89bb",
+  "lastOpenFiles": [
+    "AUXILIATURA/ESTRUCTURA (AUX)/HDT3.md",
+    "AUXILIATURA/PROGRA BASICA (AUX)/Ejercicio 3 - Estructuras cíclicas.md",
+    "AUXILIATURA/PROGRA BASICA (AUX)/Ejercicio 2 - Condicionales simples.md",
+    "AUXILIATURA/ESTRUCTURA (AUX)/Sin nombre",
+    "DB1/Clase 6.md",
+    "AUXILIATURA/PROGRA BASICA (AUX)/MEA 1 - Análisis, Diseño y Propuesta de Solución.md",
+    "DB1/Clase 5.md",
+    "AUXILIATURA/PROGRA BASICA (AUX)/Variables y expresiones.md",
+    "AUXILIATURA/PROGRA BASICA (AUX)/MEA 1 - Presentación.md",
+    "Sin título.md",
+    "DB1/Clase 4.md",
+    "AUXILIATURA/ESTRUCTURA (AUX)",
+    "fds.md",
+    "INGLES/Fotos/{F9BF5B27-07D9-4C58-905A-B731F70944F1}.png",
+    "INGLES/Fotos/{F854C5C1-7BB4-4853-BE8B-D7C03F4C3158}.png",
+    "INGLES/Fotos/{F71D1E6C-C30A-41DF-8E99-A6D8508E149C}.png",
+    "INGLES/Fotos/{EBE1AC13-48C6-4A68-8E30-87BA1EB8B96B}.png",
+    "INGLES/Fotos/{DF186B19-D29B-4C22-8D6A-2DF8146E26B7}.png",
+    "INGLES/Fotos/{D056A876-21FF-4450-8C4C-48B0B9DF7C35}.png",
+    "INGLES/Fotos/{CD4B83D7-158D-46D2-AC3C-7B8EFE567EFA}.png",
+    "INGLES/Fotos/{C62E6CC0-E7ED-475A-9968-8AD601214DDA}.png",
+    "INGLES/Fotos/{C4AFCC1C-A6B9-4067-8563-DF47EAFA3529}.png",
+    "INGLES/Fotos/{C3DB5CB0-2009-4871-B712-8FA04D62C2D1}.png",
+    "INGLES/Fotos",
+    "INGLES/Class 2.md",
+    "INGLES",
+    "DB1/Clase 3.md",
+    "DB1/CLASE 2.md",
+    "DB1",
+    "AUXILIATURA/PROGRA BASICA (AUX)",
+    "AUXILIATURA"
+  ]
+}

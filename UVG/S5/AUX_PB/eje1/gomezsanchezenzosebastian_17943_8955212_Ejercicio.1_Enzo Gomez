@@ -1,0 +1,30 @@
+# Ejercicio 1  
+
+import math
+
+def calcular_cerca():
+    # Solicitar datos al usuario
+    longitud = float(input("Ingrese la longitud del terreno (m): "))
+    ancho = float(input("Ingrese el ancho del terreno (m): "))
+    costo_metro_madera = float(input("Ingrese el costo por metro de la madera: "))
+    distancia_entre_postes = float(input("Ingrese la distancia entre postes (m): "))
+    
+    # Calcular el perímetro del terreno
+    perimetro = 2 * (longitud + ancho)
+    
+    # Calcular el costo total de la madera
+    costo_total_madera = perimetro * costo_metro_madera
+    
+    # Calcular la cantidad de postes 
+    postes_longitud = (longitud / distancia_entre_postes)
+    postes_ancho = (ancho / distancia_entre_postes)
+    cantidad_postes = int(4 + 2 * (postes_longitud + postes_ancho))
+    
+    # Mostrar los resultados
+    print("\nResultados:")
+    print(f"Longitud total de la cerca: {perimetro} metros")
+    print(f"Costo total de la madera: {costo_total_madera:} " )
+    print(f"Cantidad total de postes necesarios: {cantidad_postes}")
+
+# Ejecutar la función
+calcular_cerca()

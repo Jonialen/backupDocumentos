@@ -1,0 +1,98 @@
+Entidades:
+
+Canciones:
+ -IdCancion(PK)
+ -NombreCancion
+ -Duracion
+
+Artista:
+ -IdArtista (PK)
+ -Nombre
+
+Album:
+ -IdAlbum(PK)
+ -NombreAlbum
+ -IdArtista (FK)
+
+AlbumDetalle:
+ -IdAlbum (FK)
+ -IdCancion (FK)
+ -IdAlbum, IdCancion (PK)
+
+
+EXPLICACIONES:
+Canciones  
+
+FN1
+Reglas que cumple:  
+ -Los datos son atómicos y no hay conjuntos de valores en una celda.  
+ -Cada columna contiene solo un tipo de dato.  
+ -Se ha definido una clave primaria (IdCancion).  
+
+FN2
+Reglas que cumple:  
+ -Cumple FN1.  
+ -No existen dependencias parciales, ya que todos los atributos dependen completamente de IdCancion.  
+
+FN3
+Reglas que cumple:  
+ -Cumple FN2.  
+ -No existen dependencias transitivas, ya que NombreCancion y Duracion dependen directamente de IdCancion.  
+ 
+
+Artista  
+
+FN1
+Reglas que cumple:  
+ -Los datos son atómicos y no hay conjuntos de valores en una celda.  
+ -Cada columna contiene solo un tipo de dato.  
+ -Se ha definido una clave primaria (IdArtista).  
+
+FN2
+Reglas que cumple:  
+ -Cumple FN1.  
+ -No existen dependencias parciales, ya que todos los atributos dependen completamente de IdArtista.  
+
+FN3
+Reglas que cumple:  
+ -Cumple FN2.  
+ -No existen dependencias transitivas, ya que Nombre depende directamente de IdArtista.  
+
+
+Álbum  
+
+FN1
+Reglas que cumple:  
+ -Los datos son atómicos y no hay conjuntos de valores en una celda.  
+ -Cada columna contiene solo un tipo de dato.  
+ -Se ha definido una clave primaria (IdAlbum).  
+
+FN2
+Reglas que cumple:  
+ -Cumple FN1.  
+ -No existen dependencias parciales, ya que todos los atributos dependen completamente de IdAlbum.  
+
+FN3
+Reglas que cumple:  
+ -Cumple FN2.  
+ -No existen dependencias transitivas, ya que NombreAlbum depende directamente de IdAlbum y no de IdArtista.  
+
+
+AlbumDetalle  
+
+FN1
+Reglas que cumple:  
+ -Los datos son atómicos y no hay conjuntos de valores en una celda.  
+ -Cada columna contiene solo un tipo de dato.  
+ -Se ha definido una clave primaria compuesta (IdAlbum, IdCancion).  
+
+FN2
+Reglas que cumple:  
+ -Cumple FN1.  
+ -No existen dependencias parciales, ya que ambos atributos dependen completamente de la clave primaria compuesta.  
+
+FN3
+Reglas que cumple:  
+ -Cumple FN2.  
+ -No existen dependencias transitivas, ya que IdAlbum y IdCancion son claves foráneas y no hay atributos adicionales que dependan de otra columna que no sea clave primaria.  
+
